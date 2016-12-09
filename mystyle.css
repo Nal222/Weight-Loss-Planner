@@ -1,0 +1,45 @@
+p{
+    color:black;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:16;
+}
+
+td{
+    color:black;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:16;
+}
+
+
+input.blacktextbox{
+
+    FONT-WEIGHT: bold; 
+    FONT-SIZE: 16px;
+	BACKGROUND-COLOR: rgb(0,0,0); 	
+    COLOR: rgb(255,255,255); 
+    HEIGHT: 22px; 
+    font-family: Arial
+
+}
+
+li{
+    color:black;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:11;
+
+}
+
+@media print{
+
+	.notprint{visibility:hidden}
+
+}
+
+@media screen, handheld, tv, projector{
+
+	.hidefromscreen{visibility:hidden}
+
+}
